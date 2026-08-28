@@ -1,3 +1,14 @@
+# pairstonk-rukkibot
+
+Dua bot terpisah dalam satu repo:
+
+| | Perintah | Fungsi |
+|---|---|---|
+| **Notifikasi StonkFun** | `python bot.py` | Pantau pair baru di StonkFun, kirim ke Telegram. Tidak memegang wallet. Dijelaskan di bawah. |
+| **Sniper Raydium CPMM** | `python sniper_bot.py run` | Deteksi pool CPMM baru on-chain dan beli otomatis. Memegang private key dan membelanjakan dana sungguhan — baca **[SNIPER.md](SNIPER.md)**. |
+
+---
+
 # StonkFun New Pair Bot
 
 Bot Telegram yang memantau pair token baru di [StonkFun](https://www.stonkfun.xyz)
